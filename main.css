@@ -11,5 +11,13 @@ header {
 .top-section {
   background: #999;
   height: 50vh;
+  /*
+  this calc() is a cool rule. it calculates whatever is in the parens. in this case, it takes 100% of the viewheight, and then subtracts 70px.
+  height: calc(100vh - 70px);
+  */
   width: 50%;
 }
+
+
+what is your github username ?
+smrtsmrf
