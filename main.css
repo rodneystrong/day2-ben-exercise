@@ -7,12 +7,6 @@ h1,h2,h3,h4,h5,h6 {
   color: #fff;
 }
 
-.hero {
-  font-weight: bold;;
-  font-size: 70px;
-  margin-top: 70px;
-}
-
 header {
   background: lightblue;
 }
@@ -23,24 +17,38 @@ header {
   background: #ccc;
 }
 
-.top-section {
-  background: #999;
-  height: 50vh;
-  /*
-  this calc() is a cool rule. it calculates whatever is in the parens. in this case, it takes 100% of the viewheight, and then subtracts 70px.
-  height: calc(100vh - 70px);
-  */
-  width: 50%;
-}
-
 .main-top {
+  margin: 0 auto;
   height: 100vh;
-  width: 100%;
-  background:
+  width: 1140px;
 }
 
 .main-top img {
   margin: 20px 0 0 20px;
+}
+
+.top-section {
+  /*
+  this calc() is a cool rule. it calculates whatever is in the parens. in this case, it takes 100% of the viewheight, and then subtracts 70px.
+  height: calc(100vh - 70px);
+  */
+  width: 100%;
+}
+
+.hero {
+  font-weight: bold;;
+  font-size: 70px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.cta {
+  background: #00d8ff;
+  color: #fff;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  padding: 24px;
 }
 
 what is your github username ?
