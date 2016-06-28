@@ -45,14 +45,20 @@ header {
   margin-top: 70px;
 }
 
+.content .hero em {
+  color: #00d8ff;
+}
+
 .cta {
   background: #00d8ff;
   color: #fff;
+  font-size: 30px;
   width: 250px;
   border-radius: 10px;
   border: none;
   padding: 24px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 what is your github username ?
