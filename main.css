@@ -7,3 +7,9 @@ header {
   height: 75px;
   background: #ccc;
 }
+
+.top-section {
+  background: #999;
+  height: 50vh;
+  width: 50%;
+}
